@@ -4,9 +4,9 @@ require_once("db-config.php");
 
 class MY_SQLDB {
 	private $db_server_name = "localhost";
-	private $db_user_name = "root";
-	private $db_password = "root";
-	private $db_name = "muralidb";
+	private $db_user_name = "username";
+	private $db_password = "password";
+	private $db_name = "dbname";
 
 
 	private $data = array();
