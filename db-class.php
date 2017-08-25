@@ -1,6 +1,5 @@
 <?php
 // Class For DataBase Connection Managenent;
-require_once("db-config.php");
 
 class MY_SQLDB {
 	private $db_server_name = "localhost";
