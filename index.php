@@ -5,10 +5,10 @@ ini_set("display_errors", 1);
 ini_set("log_errors", 1);
 error_reporting(E_ALL & ~E_NOTICE);
 
-
+// Get Data From SQL DataBase;
 function getData() {
 	$db = new MY_SQLDB();
-	$sql = "SELECT * FROM mailid";
+	$sql = "SELECT * FROM table_name";
 	$rows = $db->get_rows($sql);
 	$sheet_titles = $db->get_column_names();
 	$data = array_merge(array(), $rows);

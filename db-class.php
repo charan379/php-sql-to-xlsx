@@ -10,7 +10,6 @@ class MY_SQLDB {
 
 	private $data = array();
 
-
 	public function get_connection() {
 		$this->connection = mysqli_connect($this->db_server_name, $this->db_user_name, $this->db_password, $this->db_name);
 
